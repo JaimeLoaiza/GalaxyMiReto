@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GalaxyMiReto", "GalaxyMiReto.csproj", "{AFC1F541-215E-495D-90AA-078AACAE3247}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GalaxyMiReto", "GalaxyMiReto.csproj", "{AFC1F541-215E-495D-90AA-078AACAE3247}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
