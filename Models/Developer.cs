@@ -15,10 +15,14 @@ namespace GalaxyMiReto.GalaxyMiReto.Models
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         [Required]
         public int DeveloperId { get; set; }
-        [Column("NumberId")]
+        [Column("IdentityType")]
+        [Required]
+        [StringLength(2)]
+        public string IdentityType { get; set; }
+        [Column("NumberIdentity")]
         [Required]
         [StringLength(5)]
-        public string NumberId { get; set; }
+        public string NumberIdentity { get; set; }
         [Column("FirstName")]
         [Required]
         [StringLength(50)]
@@ -43,7 +47,7 @@ namespace GalaxyMiReto.GalaxyMiReto.Models
         [Required]
         [StringLength(2)]
         public string Age { get; set; }
-        [ForeignKey("ContractNumberId")]
-        public virtual ContractNumber ContractNumber { get; set; }
+        [ForeignKey("ContractId")]
+        public virtual Contrato Contrato { get; set; }
     }
 }
