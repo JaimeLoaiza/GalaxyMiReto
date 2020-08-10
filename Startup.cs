@@ -28,13 +28,14 @@ namespace GalaxyMiReto
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
-            services.AddDbContext<DeveloperdbContext>
-                (o => o.UseSqlServer(Configuration.GetConnectionString("DeveloperDatabase")));
+            services.AddDbContext<DeveloperDbContext>
+                (o => o.UseSqlServer(Configuration.
+                GetConnectionString("DeveloperDatabase")));
             services.AddControllers();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, DeveloperdbContext db)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, DeveloperDbContext db)
         {
             if (env.IsDevelopment())
             {

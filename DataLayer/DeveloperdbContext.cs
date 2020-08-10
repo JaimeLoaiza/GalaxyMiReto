@@ -7,13 +7,13 @@ using System.Threading.Tasks;
 
 namespace GalaxyMiReto.DataLayer
 {
-    public class DeveloperdbContext:DbContext
+    public class DeveloperDbContext:DbContext
     {
-        public DeveloperdbContext(DbContextOptions
-            <DeveloperdbContext>options):base(options)
+        public DeveloperDbContext(DbContextOptions
+            <DeveloperDbContext>options):base(options)
         { 
         }
-        public DbSet<Developer>Developer { get; set; }
+        public DbSet<Developer> Developer { get; set; }
         public DbSet<Contrato> Contrato { get; set; }
     }
 }
