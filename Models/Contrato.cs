@@ -9,15 +9,15 @@ namespace GalaxyMiReto.GalaxyMiReto.Models
 {
     public class Contrato
     {
-        [Column("ContractId")]
+        [Column("ContratoId")]
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         [Required]
-        public int ContractId { get; set; }
-        [Column("ContractNumber")]
+        public int ContratoId { get; set; }
+        [Column("ContratoNumero")]
         [Required]
         [StringLength(5)]
-        public int ContractNumber { get; set; }
+        public int ContratoNumero { get; set; }
         [Column("EntityName")]
         [Required]
         [StringLength(50)]
