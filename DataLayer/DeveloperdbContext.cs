@@ -9,8 +9,7 @@ namespace GalaxyMiReto.DataLayer
 {
     public class DeveloperDbContext:DbContext
     {
-        public DeveloperDbContext(DbContextOptions
-            <DeveloperDbContext>options):base(options)
+        public DeveloperDbContext(DbContextOptions<DeveloperDbContext>options):base(options)
         { 
         }
         public DbSet<Developer> Developer { get; set; }

@@ -42,7 +42,6 @@ C:\Users\Familia Loaiza\source\repos\GalaxyMiReto\GalaxyMiReto\bin\Debug\netcore
 C:\Users\Familia Loaiza\source\repos\GalaxyMiReto\GalaxyMiReto\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\Familia Loaiza\source\repos\GalaxyMiReto\GalaxyMiReto\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
 C:\Users\Familia Loaiza\source\repos\GalaxyMiReto\GalaxyMiReto\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\Familia Loaiza\source\repos\GalaxyMiReto\GalaxyMiReto\obj\Debug\netcoreapp3.1\GalaxyMiReto.csprojAssemblyReference.cache
 C:\Users\Familia Loaiza\source\repos\GalaxyMiReto\GalaxyMiReto\obj\Debug\netcoreapp3.1\GalaxyMiReto.AssemblyInfoInputs.cache
 C:\Users\Familia Loaiza\source\repos\GalaxyMiReto\GalaxyMiReto\obj\Debug\netcoreapp3.1\GalaxyMiReto.AssemblyInfo.cs
 C:\Users\Familia Loaiza\source\repos\GalaxyMiReto\GalaxyMiReto\obj\Debug\netcoreapp3.1\GalaxyMiReto.csproj.CoreCompileInputs.cache

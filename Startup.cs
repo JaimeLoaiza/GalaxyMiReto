@@ -27,11 +27,11 @@ namespace GalaxyMiReto
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddControllersWithViews();
+            //Contexto y Conexión a la DB
             services.AddDbContext<DeveloperDbContext>
-                (o => o.UseSqlServer(Configuration.
-                GetConnectionString("DeveloperDatabase")));
-            services.AddControllers();
+                (options => options.UseSqlServer(Configuration.
+                GetConnectionString("ConexionGalaxyMiReto")));
+            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_3_0);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
