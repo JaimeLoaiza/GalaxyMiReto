@@ -67,3 +67,4 @@ C:\Users\Familia Loaiza\source\repos\GalaxyMiReto\GalaxyMiReto\obj\Debug\netcore
 C:\Users\Familia Loaiza\source\repos\GalaxyMiReto\GalaxyMiReto\obj\Debug\netcoreapp3.1\GalaxyMiReto.dll
 C:\Users\Familia Loaiza\source\repos\GalaxyMiReto\GalaxyMiReto\obj\Debug\netcoreapp3.1\GalaxyMiReto.pdb
 C:\Users\Familia Loaiza\source\repos\GalaxyMiReto\GalaxyMiReto\obj\Debug\netcoreapp3.1\GalaxyMiReto.genruntimeconfig.cache
+C:\Users\Familia Loaiza\source\repos\GalaxyMiReto\GalaxyMiReto\obj\Debug\netcoreapp3.1\GalaxyMiReto.csprojAssemblyReference.cache

@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using GalaxyMiReto.DataLayer;
+using GalaxyMiReto.Data;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -33,13 +33,16 @@ namespace GalaxyMiReto
                 GetConnectionString("ConexionGalaxyMiReto")));
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_3_0);
         }
-
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env, DeveloperDbContext db)
         {
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
+            }
+            else
+            {
+                app.UseHsts();
             }
             db.Database.EnsureCreated();
             app.UseHttpsRedirection();
